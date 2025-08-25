@@ -26,7 +26,6 @@ while a<=26:
     b=b+(abs(((l1.count(y)/len(l1))*100)-percentage[y]))
   if (" is " or " and " or " are " or " was " or "were" or " the " or " or " or " they " or " a " or " an " or " be " or " in " or " that " or " have " or " I " or "  it " or " if " or " also " or " who " or " all " or " him " or " its ") in d:
       b=b-50
-  print(b)
   if c>b:
     c = b
     f = d
