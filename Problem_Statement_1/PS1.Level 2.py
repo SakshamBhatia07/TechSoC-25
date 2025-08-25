@@ -1,5 +1,4 @@
 l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-code = input("Enter the word to be decoded: ")
 percentage = {
     0	:8.2,
     1	:1.5,
@@ -28,7 +27,8 @@ percentage = {
     24	:2.0,
     25	:0.074
 }
-a=0
+code = input("Enter the word to be decoded: ")
+a=1
 c=(1000*len(code))
 e=0
 f = "Some error occurred"
