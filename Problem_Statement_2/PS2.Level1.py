@@ -36,3 +36,4 @@ while True:
   if pikachu.HP<=0:
     print("Pikachu fainted, you lost")
     break
+
